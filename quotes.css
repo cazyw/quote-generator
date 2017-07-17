@@ -1,0 +1,50 @@
+body {
+    font-size: 2em;
+    background-image: url("https://images2.alphacoders.com/261/26102.jpg");
+    color: #fff;
+}
+
+.quote-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px 10px 20px 10px;
+    background: #fff;
+    border-radius: 20px;
+    color: #000;
+}
+
+.hidden {
+    display: none;
+}
+
+.quote-text {
+    margin-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+}
+.quote-author {
+}
+
+button {
+    color: #000;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+    opacity: 0.7;
+    background-color: #000;
+    padding: 10px 0px 10px 0px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    body {
+        font-size: 1em;
+    }
+}
