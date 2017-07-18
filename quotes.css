@@ -2,6 +2,8 @@ body {
     font-size: 2em;
     background-image: url("https://images2.alphacoders.com/261/26102.jpg");
     color: #fff;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
 button {
