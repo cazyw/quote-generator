@@ -11,7 +11,7 @@ function getQuote(){
         }
         html += "<div class = 'quote-text text-center'><i class='fa fa-quote-left'></i> " + quote + " <i class='fa fa-quote-right'></i></div></span>";
         html += "<div class = 'quote-author text-center'> - " + author + " - </div>";
-        $('#tweet').attr('href', 'https://twitter.com/share?hashtags=quotes,freecodecamp&related=freecodecamp&text=' + encodeURIComponent('"' + quote  + '"\n - ' +  author))
+        $('#tweet').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes,freecodecamp&related=freecodecamp&text=' + encodeURIComponent('"' + quote  + '"\n - ' +  author))
         $('#tweet').attr('data-text', encodeURIComponent('"' + quote  + '"\n - ' +  author))
         $("#quote-container").removeClass("hidden");
         $("#quote-animated").html(html).fadeIn();
