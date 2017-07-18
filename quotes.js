@@ -13,7 +13,9 @@ function getQuote(){
         html += "<div class = 'quote-author text-center'> - " + author + " - </div>";
         $("#quote-container").removeClass("hidden");
         $("#quote-animated").html(html).fadeIn();
+        $("#quote-container").height($("#quote-animated").height());
         $("#quoteButton").html("<i class='fa fa-refresh'></i> Get New Quote");
+        $("a[data-text]").attr('data-text', quote);
         
     });
 }

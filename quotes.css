@@ -4,29 +4,8 @@ body {
     color: #fff;
 }
 
-.quote-container {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    padding: 20px 10px 20px 10px;
-    background: #fff;
-    border-radius: 20px;
-    color: #000;
-}
-
-.hidden {
-    display: none;
-}
-
-.quote-text {
-    margin-bottom: 20px;
-    font-family: 'Indie Flower', cursive;
-    font-size: 2em;
-}
-.quote-author {
-}
-
 button {
-    color: #000;
+    color: #000; 
 }
 
 h1 {
@@ -41,6 +20,31 @@ a:link, a:visited, a:hover, a:active {
     color: #fff;
     text-decoration: none;
 }
+
+
+#quote-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    background: #fff;
+    border-radius: 10px;
+    color: #000;
+    opacity: 0.9;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.quote-text {
+    margin-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+}
+.quote-author {
+}
+
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
