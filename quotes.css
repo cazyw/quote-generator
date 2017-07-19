@@ -8,7 +8,10 @@ body {
 
 button {
     color: #000; 
+    outline: none;
 }
+
+
 
 h1 {
     font-family: 'Architects Daughter', cursive;
@@ -21,8 +24,12 @@ h1 {
 a:link, a:visited, a:hover, a:active {
     color: #fff;
     text-decoration: none;
+    outline: none;
 }
 
+a:focus {
+    outline: none;
+}
 
 #quote-container {
     margin-top: 30px;
@@ -34,6 +41,9 @@ a:link, a:visited, a:hover, a:active {
     opacity: 0.9;
 }
 
+#authorship {
+    padding: 20px 0px 20px 0px;
+}
 
 .hidden {
     display: none;
@@ -52,5 +62,8 @@ a:link, a:visited, a:hover, a:active {
 @media only screen and (max-width : 480px) {
     body {
         font-size: 1em;
+    }
+    h1 {
+        font-size: 2em;
     }
 }
